@@ -12,7 +12,7 @@ const Skills = () => {
       <div className='max-w-[1000px] mx-auto p-4 pl-8 flex flex-col justify-center w-full h-full'>
        <div className='sm:text-center'>
          <p className='text-4xl font-bold inline border-b-4 border-[#C4A484]'>Skills</p>
-         <p className='pt-4'>These are the software that I've worked with:</p>
+         <p className='pt-4'>These are some of the software that I've worked with:</p>
         </div>
          
        <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-4 text-center py-6'>
