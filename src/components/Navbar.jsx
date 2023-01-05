@@ -88,7 +88,7 @@ const Navbar = () => {
         <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
           <ul>
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0px] duration-300 bg-blue-600'>
-              <a  className='flex justify-between items-center w-full text-[#F8F0C6]' href="/">
+              <a  className='flex justify-between items-center w-full text-[#F8F0C6]' href="https://www.linkedin.com/in/anthony-s-a3976622b/">
                 LinkedIn <FaLinkedin size={30} />
               </a>
             </li>
@@ -98,9 +98,9 @@ const Navbar = () => {
               </a>
             </li>
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0px] duration-300 bg-[#FD4866]'>
-              <a  className='flex justify-between items-center w-full text-[#F8F0C6]' href="/">
+              <Link to="contact" smooth={true} duration={500} className='flex justify-between items-center w-full text-[#F8F0C6]'>
                 Email <HiOutlineMail size={30} />
-              </a>
+              </Link>
             </li>
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0px] duration-300 bg-[#565F69]'>
               <a  className='flex justify-between items-center w-full text-[#F8F0C6]' href="/">

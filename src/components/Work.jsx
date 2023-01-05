@@ -1,5 +1,7 @@
 import React from 'react'
 import SampleLogo from '../assets/samplelogo.png'
+import Springboard from '../assets/springboard.png'
+import TailwindReact from '../assets/tailwindreact.png'
 
 const Work = () => {
   return (
@@ -11,17 +13,46 @@ const Work = () => {
             </div>
 
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
-                <div style={{backgroundImage: `url(${SampleLogo})`}}
+                <div style={{backgroundImage: `url(${TailwindReact})`}}
                 className='shadow-lg shadow-[#040C16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-[#F8F0C6] tracking-wider'>
-                            React JS Application
+                            Portfolio Website
                         </span>
                         <div className='pt-8 text-center'>
                             <a href="/">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
                             <a href="https://github.com/anthonyysz/portfolio">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div style={{backgroundImage: `url(${Springboard})`}}
+                className='shadow-lg shadow-[#040C16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    <div className='opacity-0 group-hover:opacity-100'>
+                        <span className='text-l font-bold text-[#F8F0C6] text-center tracking-wider'>
+                            Customer Lifetime
+                            Value Analysis
+                        </span>
+                        <div className='pt-8 text-center'>
+                            <a href="https://github.com/anthonyysz/Capstone-Two">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div style={{backgroundImage: `url(${Springboard})`}}
+                className='shadow-lg shadow-[#040C16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    <div className='opacity-0 group-hover:opacity-100'>
+                        <span className='text-2xl font-bold text-[#F8F0C6] tracking-wider'>
+                            Time Series Analysis
+                        </span>
+                        <div className='pt-8 text-center'>
+                            <a href="https://github.com/anthonyysz/CapstoneThree">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>

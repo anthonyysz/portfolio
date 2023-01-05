@@ -17,7 +17,7 @@ const About = () => {
                     <p>Hey! Feel free to look around!</p>
                   </div>
                   <div className='pl-4 sm:text-left'>
-                    <p>Insert Description</p>
+                    <p>I am a training Machine Learning Engineer and Data Scientest recently graduated from Springboard's Data Science Career Track.</p>
                   </div>
                 </div>
         </div>
