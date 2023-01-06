@@ -4,7 +4,6 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import Work from "./components/Work";
 import Contact from "./components/Contact";
-import {Routes, Route} from 'react-router-dom'
 
 function App() {
   return (
