@@ -103,7 +103,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0px] duration-300 bg-[#565F69]'>
-              <a  className='flex justify-between items-center w-full text-[#F8F0C6]' href="/">
+              <a  className='flex justify-between items-center w-full text-[#F8F0C6]' href="https://resume.creddle.io/resume/98vmachii1e">
                 Resume <BsFillPersonLinesFill size={30} />
               </a>
             </li>
