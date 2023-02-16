@@ -2,6 +2,7 @@ import React from 'react'
 import Springboard from '../assets/springboard.png'
 import TailwindReact from '../assets/tailwindreact.png'
 import Apple from '../assets/apple.png'
+import NLP from '../assets/nlp.jpg'
 
 const Work = () => {
   return (
@@ -74,7 +75,21 @@ const Work = () => {
                     </div>
                 </div>
 
-
+                <div style={{backgroundImage: `url(${NLP})`}}
+                className='shadow-lg shadow-[#040C16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    <div className='opacity-0 group-hover:opacity-100'>
+                        <span className='text-l font-bold text-[#F8F0C6] text-center tracking-wider'>
+                            Restaurant 
+                            Reviews
+                            NLP
+                        </span>
+                        <div className='pt-8 text-center'>
+                            <a href="https://github.com/anthonyysz/restaurant_reviews_nlp">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
