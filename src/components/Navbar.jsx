@@ -88,7 +88,7 @@ const Navbar = () => {
         <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
           <ul>
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0px] duration-300 bg-blue-600'>
-              <a  className='flex justify-between items-center w-full text-[#F8F0C6]' href="https://www.linkedin.com/in/anthony-s-a3976622b/">
+              <a  className='flex justify-between items-center w-full text-[#F8F0C6]' href="https://www.linkedin.com/in/anthony-szabo-a3976622b/">
                 LinkedIn <FaLinkedin size={30} />
               </a>
             </li>
