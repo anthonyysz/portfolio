@@ -17,7 +17,9 @@ const About = () => {
                     <p>Hey! Feel free to look around!</p>
                   </div>
                   <div className='pl-4 sm:text-left'>
-                    <p>I am a training Machine Learning Engineer and Data Scientest recently graduated from Springboard's Data Science Career Track.</p>
+                    <p>I am a training Data Scientist, having graduated from Springboard's Data Science Career Track. 
+                      I am finishing up studies at Western Governors University, earning my Bachelor's Degree in Computer Science. I'd love to work in a position requiring my 
+                      knowledge in statistics, machine learning, software development.</p>
                   </div>
                 </div>
         </div>
